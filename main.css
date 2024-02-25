@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+html{
+    background-color:rgb(253, 245, 230);
+}
+
+/*Body*/
+body{
+   
+ font-family: "Lucida Handwrting" , cursive;
+
+}
+
+/*header*/
+h1{
+    font-family: "Copperplate" , fantasy;
+    letter-spacing: 0.1em;
+}
+
+
+h2{
+    font-family: "Copperplate" , fantasy;
+    background-color: rgb(250, 128, 114);
+    max-width: 350px;
+    padding: .5em .5em .5em;
+    letter-spacing: 0.1em;
+}
+ 
+ 
+
+
+ /*Navigation*/
+nav{
+    font-size: 1em;
+    
+}
+
+    nav > ul{
+    
+        line-height:2;
+}
+
+/*footer*/
+footer {
+    background-color: darkred;
+    font-family: "times new roman", serif;
+    max-width: 350px;
+    font-weight: bold;
+    
+
+}
