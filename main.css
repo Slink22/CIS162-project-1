@@ -7,7 +7,7 @@ html{
 /*Body*/
 body{
    
- font-family: "Lucida Handwrting" , cursive;
+    font-family: "Lucida Handwrting" , cursive;
 
 }
 
@@ -20,7 +20,7 @@ h1{
 
 h2{
     font-family: "Copperplate" , fantasy;
-    background-color: rgb(250, 128, 114);
+    background-color:#88596b;
     max-width: 350px;
     padding: .5em .5em .5em;
     letter-spacing: 0.1em;
@@ -29,23 +29,82 @@ h2{
  
 
 
- /*Navigation*/
-nav{
-    font-size: 1em;
-    
-}
 
-    nav > ul{
-    
-        line-height:2;
-}
+
 
 /*footer*/
 footer {
-    background-color: darkred;
-    font-family: "times new roman", serif;
-    max-width: 350px;
-    font-weight: bold;
+  background-color:#ff6961 ;
+clear: both;
+}
+
+
+/*nav*/
+header{
+    background-color:#ff6961 ;
+    display: grid;
+    place-items: center;
+}
+
+
+nav{
     
+background-color: #ffe5b4;
+}
+nav ul li{
+    display: inline;
+   
+    
+}
+
+
+nav a{
+text-decoration: none;
+padding: 20px;
+color: black;
+
 
 }
+
+nav a:hover{
+    text-decoration: none;
+    padding: 20px;
+    background-color: #fdfd96;
+    
+    }
+
+    div#rightColumn {
+       
+
+        float:right;
+width: 40%;
+    }
+
+    
+
+    div#leftColumn {
+        float:left;
+        width: 60%;
+    }
+
+    img{
+        width: 450px;
+    }
+
+
+div#rightColumn  p#RL , p#rocklee{
+display: inline;
+font-family: 'Times New Roman', Times, serif;
+}
+
+ p#RL{
+font-weight: bold;
+}
+
+p#rocklee{
+    font-style: italic;
+}
+ 
+
+
+  
